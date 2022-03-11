@@ -1,0 +1,103 @@
+header {
+  font-family: 'Fjalla One', sans-serif !important;
+}
+
+body {
+  font-family: 'Fjalla One', sans-serif !important;
+  top: 200px;
+  /**
+  background-image: url('../img/moon.jpg');
+  background-size: cover;
+  background-position: center;
+  **/
+  background-color: rgb(19, 19, 19);
+}
+
+/** Customized tags **/
+h1 {
+  font-size: 10vw;
+}
+
+w {
+  color: #ffc107;
+}
+
+/** Font classes **/
+.sheppards {
+  font-family: 'Mrs Sheppards', cursive;
+  color: black;
+}
+
+.font-mrdafoe {
+  font-family: 'Mr Dafoe', cursive;
+}
+
+/** Custom Navigation Bar **/
+.bg-navbar-custom {
+  background: rgba(8, 8, 8, 0.9);
+}
+
+.navbar .navbar-brand:hover {
+  color: #ffc107 !important;
+  transition: 0.3s;
+}
+
+.custom-toggler.navbar-toggler:hover {
+  border-color: rgb(255, 193, 7) !important;
+  transition: 0.3s;
+}
+.custom-toggler .navbar-toggler-icon:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,193,7, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  transition: 0.3s;
+}
+
+/** Navigation Link turns yellow when hover over **/
+.nav-item .nav-link:hover {
+  color: #ffc107 !important;
+  transition: 0.3s;
+}
+
+.page-header {
+  position: relative !important;
+  top: 50px;
+}
+
+/** Container's top exactly right under Navigation Bar include different media**/
+.container-top {
+  margin-top: 66px;
+}
+
+@media screen and (max-width: 991px) {
+  .container-top {
+    margin-top: 55px;
+  }
+}
+
+/** Black and White Portrait image **/
+.img-bnw {
+  filter: grayscale(100%);
+}
+
+/** Laptop image background
+.bg-laptop {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+}
+**/
+
+/** Modify custom icon's size **/
+.icon-custom {
+  width: 25px;
+}
+
+/** FancyBox icon **/
+.fancybox {
+  background-image: url('/assets/img/icons/fancybox.png');
+}
+
+/** Modify portfolio images **/
+.graphic-design {
+  width: 20vw;
+  border-width: 3px !important;
+}
